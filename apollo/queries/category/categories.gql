@@ -1,0 +1,6 @@
+query Categories($len: Int! = 3) {
+  categories(limit: $len) {
+    id
+    name
+  }
+}

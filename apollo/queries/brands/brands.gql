@@ -1,0 +1,8 @@
+query Brands($len: Int! = 6) {
+  brands(limit: $len) {
+    id
+    image {
+      url
+    }
+  }
+}

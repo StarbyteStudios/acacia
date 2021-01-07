@@ -1,0 +1,10 @@
+query Articles($len: Int! = 3) {
+  articles(limit: $len) {
+    id
+    title
+    image {
+      url
+    }
+    published_at
+  }
+}
